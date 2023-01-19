@@ -1,9 +1,9 @@
-const Total = ({parts}) => {
+const Total = ({course}) => {
     
     // Función para la sumatoria de ejercicios
     const sumatoriaExcercises = () => {
         let sumatoria = 0;
-        parts.map((value) => sumatoria += value['exercises']);
+        course.map((value) => sumatoria += value['exercises']);
         return sumatoria;
     }
 
