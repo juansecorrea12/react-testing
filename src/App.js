@@ -19,7 +19,7 @@ const App = () => {
       <Content 
       espacio1 = {part1 + ' ' + exercises1}
       espacio2 = {part2 + ' ' + exercises2} 
-      espacio3 = {part3 + ' ' + exercises3} 
+      espacio3 = {part3 + ' ' + exercises3}
       />
       <Total total = {'Number of exercises ' + (exercises1 + exercises2 + exercises3)}/>
     </div>
