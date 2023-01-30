@@ -1,4 +1,4 @@
-import './App.css';
+import './styles.css';
 // import Mensaje from './Mensaje';
 import Header from './Header';
 import Content from './Content';
