@@ -1,9 +1,9 @@
-const Total = ({course}) => {
+const Total = ({excercises}) => {
     
     // Función para la sumatoria de ejercicios
     const sumatoriaExcercises = () => {
         let sumatoria = 0;
-        course.map((value) => sumatoria += value['exercises']);
+        excercises.map((value) => sumatoria += value['exercises']);
         return sumatoria;
     }
 
@@ -12,7 +12,7 @@ const Total = ({course}) => {
         {
             // llamar a la función.
             // No se hace el map aqui, ya que se renderizaría más de una vez.
-            <p>{'Number of exercises ' + sumatoriaExcercises()}</p>
+            <p> <strong>{'Number of exercises ' + sumatoriaExcercises()}</strong></p>
         }
         </>
     )
